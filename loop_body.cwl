@@ -21,7 +21,7 @@ steps:
             opt_inDS:
                 - dataset
             opt_containerImage:
-                default: docker://gitlab-registry.cern.ch/zhangruihpc/iddsal:atlas-reana-submitter
+                default: docker://gitlab-registry.cern.ch/xxx/iddsal:atlas-reana-submitter
             opt_exec:
                 default: "source script_rucio.sh from_pchloop_rucio"
             opt_args:
@@ -35,7 +35,7 @@ steps:
                 - inner_work_top/outDS
                 - dataset
             opt_containerImage:
-                default: docker://gitlab-registry.cern.ch/zhangruihpc/iddsal:atlas-reana-submitter
+                default: docker://gitlab-registry.cern.ch/xxx/iddsal:atlas-reana-submitter
             opt_exec:
                 default: "source script_eos.sh from_pchloop_eos"
             opt_args:

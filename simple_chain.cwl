@@ -13,7 +13,7 @@ steps:
         run: reana
         in:
             opt_containerImage:
-                default: docker://gitlab-registry.cern.ch/zhangruihpc/iddsal:atlas-reana-submitter
+                default: docker://gitlab-registry.cern.ch/xxx/iddsal:atlas-reana-submitter
             opt_exec:
                 default: "source script_eos.sh from_pchain_eos %IN"
             opt_args:
@@ -25,7 +25,7 @@ steps:
         in:
             opt_inDS: eventselection-1/outDS
             opt_containerImage:
-                default: docker://gitlab-registry.cern.ch/zhangruihpc/iddsal:atlas-reana-submitter
+                default: docker://gitlab-registry.cern.ch/xxx/iddsal:atlas-reana-submitter
             opt_exec:
                 default: "source script_rucio.sh from_pchain_rucio %{DS0}"
             opt_args:
